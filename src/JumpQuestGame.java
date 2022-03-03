@@ -91,7 +91,7 @@ public class JumpQuestGame extends GameStart {
 		shana.setAcceleration(0, 0.3);
 		
 		String background_name = null;
-		File file = new File("JumpQuest.map.txt");
+		File file = new File("../JumpQuest.map.txt");
 		try {
 			BufferedReader input = new BufferedReader(new FileReader(file));
 						
